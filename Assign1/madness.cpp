@@ -13,7 +13,7 @@ mer_map *map(const char *file, mer_map *exp){
 	ifstream f;
 	f.open(file);
 	string omit;
-	//getline(f,omit, '\n');
+	getline(f,omit, '\n');
 
 	while(f.good()){
 		string key, value;
